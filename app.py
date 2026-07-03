@@ -189,7 +189,7 @@ def regresion_lineal(precios_activo, precios_benchmark):
         "alpha_anual": intercept * 252, "r_cuadrado": r_value ** 2,
         "p_value": p_value, "datos": df, "n_obs": len(df)
     }
-# ─────────────────────────────────────────────────────────────────────────────
+    # ─────────────────────────────────────────────────────────────────────────────
 # GRÁFICOS
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -331,7 +331,7 @@ def fig_tecnico(df_tecnico, ticker):
         xaxis3=dict(gridcolor="#1e2e26"), yaxis=dict(gridcolor="#1e2e26"),
         yaxis2=dict(gridcolor="#1e2e26", range=[0,100]), yaxis3=dict(gridcolor="#1e2e26"))
     return fig
-# ─────────────────────────────────────────────────────────────────────────────
+    # ─────────────────────────────────────────────────────────────────────────────
 # SIDEBAR
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -590,4 +590,4 @@ else:
     with c2:
         st.markdown("### 🎲 Montecarlo\n- Cholesky correlacionado\n- 200–1000 simulaciones\n- P5 / P50 / P95\n- CVaR / Prob. ganancia")
     with c3:
-        st.markdown("### 📐 Optimización\n- Frontera Eficiente\n- Máx. Sharpe\n- Mín. Varianza\n- RSI / MACD / Beta")
+        st.markdown("### 📐 Optimización\n- Frontera Eficiente\n- Máx. Sharpe\n- Mín.
